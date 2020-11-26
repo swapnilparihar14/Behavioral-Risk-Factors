@@ -28,3 +28,10 @@ ColumnShortlistingXGBoost.ipynb takes input the data for one year at a time and 
 FinalResults.csv is the final output of AlgorithmTesting.ipynb and provides the output for XGBoost and Random Forest algorithm and an ensemble of both the methods. 
 
 AlgorithmTesting.ipynb compares different algorithms for the final prediction. It also has most of the visualizations related to mental health realted issues.
+
+#### For Cardivascular Health Related Issues
+CVD_manual_selected_features.ipynb is for initial cardiovascular health analysis and prediction. For it features were selected based on the exploratory data analysis and general understanding of cardiovascular diseases.
+
+ColumnShortlisting_Cardiovascular.ipynb for selcting cardiovascular related features using XGBoost and gives us a trimmed dataset from the overall dataset. CARDIOVASCULAR2015.csv is the output file which can be used for as a small sample of the test data required for validating the Cardiovascular_final.ipynb file.
+
+Cardiovascular_final.ipynb compares different algorithms for the final prediction. It also has most of the visualizations related to cardiovascular health realted issues.

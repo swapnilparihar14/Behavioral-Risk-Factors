@@ -23,7 +23,7 @@ The project is divided into three key parts and we have created folders for each
 #### For Mental Health Related Issues
 MENT2015.csv is the curtailed output of the ColumnShortlistingXGBoost.ipynb file (limited to Top-40)and gives us a trimmed dataset from the overall dataset. Note that we could not include complete output due to size limtations of the GitHub repo. That said, this file can be used for as a small sample of the test data required for validating the AlgorithmTesting.ipynb file.
 
-ColumnShortlistingXGBoost.ipynb takes input the data for one year at a time and then selects Top-40 features for that year. It then compares the all the Top-40 columns for the entire time span of the dataset.
+ColumnShortlistingXGBoost.ipynb takes input data for one year at a time and then selects Top-40 features for that year. It then compares all the Top-40 columns for the entire time span of the dataset.
 
 FinalResults.csv is the final output of AlgorithmTesting.ipynb and provides the output for XGBoost and Random Forest algorithm and an ensemble of both the methods. 
 
@@ -35,3 +35,10 @@ CVD_manual_selected_features.ipynb is for initial cardiovascular health analysis
 ColumnShortlisting_Cardiovascular.ipynb for selcting cardiovascular related features using XGBoost and gives us a trimmed dataset from the overall dataset. CARDIOVASCULAR2015.csv is the output file which can be used for as a small sample of the test data required for validating the Cardiovascular_final.ipynb file.
 
 Cardiovascular_final.ipynb compares different algorithms for the final prediction. It also has most of the visualizations related to cardiovascular health realted issues.
+
+#### For Diabetes Related Issues
+Diabetes.ipynb takes input data for one year at a time and then selects Top-60 features for that year after using XGBoost on complete dataset. 
+
+final_m_dia.csv is the input used in Dia_Final_Male.ipynb for using Logistic Regression, XGBoost and Random Forest algorithm. 
+
+final_f_dia.csv is the input used in Dia_Final_Female.ipynb for using Logistic Regression, XGBoost and Random Forest algorithm.
